@@ -1,0 +1,6 @@
+com/dingxiang/service/impl/DemoServiceImpl.class
+com/dingxiang/web/CacheController.class
+com/dingxiang/dao/PersonRepository.class
+com/dingxiang/domain/Person.class
+com/dingxiang/App.class
+com/dingxiang/service/DemoService.class

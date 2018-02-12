@@ -1,0 +1,6 @@
+/data2/code2/spring-boot-cache/src/main/java/com/dingxiang/App.java
+/data2/code2/spring-boot-cache/src/main/java/com/dingxiang/dao/PersonRepository.java
+/data2/code2/spring-boot-cache/src/main/java/com/dingxiang/web/CacheController.java
+/data2/code2/spring-boot-cache/src/main/java/com/dingxiang/service/DemoService.java
+/data2/code2/spring-boot-cache/src/main/java/com/dingxiang/domain/Person.java
+/data2/code2/spring-boot-cache/src/main/java/com/dingxiang/service/impl/DemoServiceImpl.java

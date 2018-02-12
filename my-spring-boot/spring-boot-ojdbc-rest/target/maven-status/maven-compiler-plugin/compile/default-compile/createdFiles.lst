@@ -1,0 +1,4 @@
+com/dingxiang/dao/PersonRepository.class
+com/dingxiang/domain/Person.class
+com/dingxiang/App.class
+web/DataController.class
