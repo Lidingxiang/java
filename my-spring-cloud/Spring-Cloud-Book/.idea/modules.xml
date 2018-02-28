@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-Cloud-Book.iml" filepath="$PROJECT_DIR$/Spring-Cloud-Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-ha/eureka-server-ha.iml" filepath="$PROJECT_DIR$/eureka-server-ha/eureka-server-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" filepath="$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-restfulapi/spring-boot-restfulapi.iml" filepath="$PROJECT_DIR$/spring-boot-restfulapi/spring-boot-restfulapi.iml" />
+    </modules>
+  </component>
+</project>
