@@ -1,21 +1,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>dingxiang.com</groupId>
-  <artifactId>SpringCloudBook</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <modules>
-    <module>eureka-server</module>
-    <module>eureka-server-ha</module>
-      <module>ribbon-consumer</module>
-      <module>spring-boot-restfulapi</module>
-  </modules>
-  <packaging>pom</packaging>
+    <groupId>dingxiang.com</groupId>
+    <artifactId>SpringCloudBook</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>eureka-server</module>
+        <module>eureka-server-ha</module>
+        <module>ribbon-consumer</module>
+        <module>spring-boot-restfulapi</module>
+        <module>hystrix-dashboard</module>
+        <module>feign-consumer</module>
+        <module>turebine</module>
+        <module>turbine-amqp</module>
+        <module>turbine-amqp</module>
+    </modules>
+    <packaging>pom</packaging>
 
-  <name>SpringCloudBook</name>
+    <name>SpringCloudBook</name>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 </project>

@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
+
 
 @RestController
 public class HelloController {
@@ -17,12 +19,25 @@ public class HelloController {
     @Autowired
     private DiscoveryClient client;
 
+//    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+//    public String index() {
+//
+//        ServiceInstance instance = client.getLocalServiceInstance();
+//        logger.info("/hello, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
+//
+//        return "hello world";
+//    }
+
+    //模拟服务阻塞
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String index() {
-
+    public String hello() throws Exception {
         ServiceInstance instance = client.getLocalServiceInstance();
-        logger.info("/hello, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
 
+//        int sleepTime = new Random().nextInt(3000);
+//        logger.info("sleepTime:" + sleepTime);
+//        Thread.sleep(sleepTime);
+
+        logger.info("/hello, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
         return "hello world";
     }
 }
