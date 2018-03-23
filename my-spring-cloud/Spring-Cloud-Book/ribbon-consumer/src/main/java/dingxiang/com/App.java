@@ -14,7 +14,6 @@ import org.springframework.web.client.RestTemplate;
 @EnableCircuitBreaker  //断路器注解
 @EnableDiscoveryClient
 @SpringBootApplication
-//@EnableHystrixDashboard
 public class App {
 
     @Bean

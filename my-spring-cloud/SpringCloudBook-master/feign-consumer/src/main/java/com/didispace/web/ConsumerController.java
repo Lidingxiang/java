@@ -10,6 +10,7 @@ public class ConsumerController {
 
     @Autowired
     HelloService helloService;
+
     @Autowired
     RefactorHelloService refactorHelloService;
 

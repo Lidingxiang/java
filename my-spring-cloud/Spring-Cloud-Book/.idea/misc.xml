@@ -4,10 +4,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-eureka/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/config-client-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/my-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/turbine/pom.xml" />
       </set>

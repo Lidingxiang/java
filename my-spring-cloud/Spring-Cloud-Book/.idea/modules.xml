@@ -3,12 +3,23 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Spring-Cloud-Book.iml" filepath="$PROJECT_DIR$/Spring-Cloud-Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-dynamic-filter/api-gateway-dynamic-filter.iml" filepath="$PROJECT_DIR$/api-gateway-dynamic-filter/api-gateway-dynamic-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-dynamic-route/api-gateway-dynamic-route.iml" filepath="$PROJECT_DIR$/api-gateway-dynamic-route/api-gateway-dynamic-route.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client-eureka/config-client-eureka.iml" filepath="$PROJECT_DIR$/config-client-eureka/config-client-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-eureka/config-server-eureka.iml" filepath="$PROJECT_DIR$/config-server-eureka/config-server-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-ha/eureka-server-ha.iml" filepath="$PROJECT_DIR$/eureka-server-ha/eureka-server-ha.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign-consumer/feign-consumer.iml" filepath="$PROJECT_DIR$/feign-consumer/feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-service/hello-service.iml" filepath="$PROJECT_DIR$/hello-service/hello-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-service-api/hello-service-api.iml" filepath="$PROJECT_DIR$/hello-service-api/hello-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-hello/rabbitmq-hello.iml" filepath="$PROJECT_DIR$/rabbitmq-hello/rabbitmq-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" filepath="$PROJECT_DIR$/ribbon-consumer/ribbon-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-restfulapi/spring-boot-restfulapi.iml" filepath="$PROJECT_DIR$/spring-boot-restfulapi/spring-boot-restfulapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream-hello/stream-hello.iml" filepath="$PROJECT_DIR$/stream-hello/stream-hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/turbine-amqp/turbine-amqp.iml" filepath="$PROJECT_DIR$/turbine-amqp/turbine-amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/turebine/turebine.iml" filepath="$PROJECT_DIR$/turebine/turebine.iml" />
     </modules>

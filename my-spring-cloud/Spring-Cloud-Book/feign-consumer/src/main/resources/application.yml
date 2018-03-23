@@ -9,3 +9,10 @@ eureka:
       defaultZone: http://localhost:1111/eureka/
 
 
+#全局超时时间
+#hystrix.command.default.execution.isolation.thread.timeoutinMilliseconds =5OOO
+
+
+
+
+
