@@ -1,0 +1,5 @@
+com/lingyi/base/userfigure/entities/FigureData.class
+com/lingyi/base/userfigure/App.class
+com/lingyi/base/userfigure/controllers/FigureDataController.class
+com/lingyi/base/userfigure/Swagger2.class
+com/lingyi/base/userfigure/repositores/FigureDataRepository.class

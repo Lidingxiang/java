@@ -21,8 +21,6 @@
 	        deferred(); //3
 	    });
 	}
-
-
 </script>
 </body>
 </html>

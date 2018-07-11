@@ -1,0 +1,8 @@
+server:
+  port: 9090
+  context-path: /helloboot
+
+
+book:
+  author: dingxiangli
+  name: spring boot

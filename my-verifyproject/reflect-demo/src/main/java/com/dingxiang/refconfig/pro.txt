@@ -1,0 +1,2 @@
+className = com.dingxiang.refconfig.Student
+methodName = show

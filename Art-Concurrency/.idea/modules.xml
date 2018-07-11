@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Art-Concurrency.iml" filepath="$PROJECT_DIR$/Art-Concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DeadLockDemo-02/DeadLockDemo-02.iml" filepath="$PROJECT_DIR$/DeadLockDemo-02/DeadLockDemo-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simple-Test-01/Simple-Test-01.iml" filepath="$PROJECT_DIR$/Simple-Test-01/Simple-Test-01.iml" />
+    </modules>
+  </component>
+</project>

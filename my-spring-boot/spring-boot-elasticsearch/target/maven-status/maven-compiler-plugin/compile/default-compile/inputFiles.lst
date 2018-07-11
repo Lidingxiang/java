@@ -1,0 +1,8 @@
+/data2/code2/java/my-spring-boot/spring-boot-elasticsearch/src/main/java/com/dingxiang/model/Author.java
+/data2/code2/java/my-spring-boot/spring-boot-elasticsearch/src/main/java/com/dingxiang/model/Tutorial.java
+/data2/code2/java/my-spring-boot/spring-boot-elasticsearch/src/main/java/com/dingxiang/service/ArticleRepository.java
+/data2/code2/java/my-spring-boot/spring-boot-elasticsearch/src/main/java/com/dingxiang/model/Article.java
+/data2/code2/java/my-spring-boot/spring-boot-elasticsearch/src/main/java/com/dingxiang/service/ArticleService.java
+/data2/code2/java/my-spring-boot/spring-boot-elasticsearch/src/main/java/com/dingxiang/service/ArticleServiceImpl.java
+/data2/code2/java/my-spring-boot/spring-boot-elasticsearch/src/main/java/com/dingxiang/App.java
+/data2/code2/java/my-spring-boot/spring-boot-elasticsearch/src/main/java/com/dingxiang/ElasticConfiguration.java

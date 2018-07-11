@@ -23,10 +23,20 @@
         <module name="rabbitmq-hello" />
         <module name="ribbon-consumer" />
         <module name="spring-boot-restfulapi" />
+        <module name="stream-consumer" />
         <module name="stream-hello" />
+        <module name="stream-hello2" />
+        <module name="stream-hello3" />
+        <module name="stream-producer" />
+        <module name="trace-1" />
+        <module name="trace-2" />
+        <module name="trace-stream-1" />
+        <module name="trace-stream-2" />
         <module name="turbine-amqp" />
         <module name="turbineamqp" />
         <module name="turebine" />
+        <module name="zipkin-server" />
+        <module name="zipkin-server-stream" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -49,12 +59,22 @@
       <module name="ribbon-consumer" target="1.8" />
       <module name="spring-boot-restfulapi" target="1.8" />
       <module name="Spring-Cloud-Book" target="1.5" />
+      <module name="stream-consumer" target="1.5" />
       <module name="stream-hello" target="1.6" />
+      <module name="stream-hello2" target="1.6" />
+      <module name="stream-hello3" target="1.8" />
+      <module name="stream-producer" target="1.8" />
       <module name="test" target="1.5" />
+      <module name="trace-1" target="1.8" />
+      <module name="trace-2" target="1.8" />
+      <module name="trace-stream-1" target="1.8" />
+      <module name="trace-stream-2" target="1.8" />
       <module name="turbine" target="1.8" />
       <module name="turbine-amqp" target="1.8" />
       <module name="turbineamqp" target="1.5" />
       <module name="turebine" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
+      <module name="zipkin-server-stream" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -7,7 +7,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>config-server</name>
+    <name>config-server-eureka</name>
     <url>http://maven.apache.org</url>
 
     <parent>

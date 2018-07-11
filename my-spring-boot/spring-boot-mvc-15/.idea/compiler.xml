@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="activeanno-02" />
+        <module name="advanceconfig-04" />
+        <module name="baseconfig-03" />
+        <module name="quickputup-01" />
+        <module name="ServerSendEvent-05" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activeanno-02" target="1.7" />
+      <module name="advanceconfig-04" target="1.7" />
+      <module name="baseconfig-03" target="1.7" />
+      <module name="quickputup-01" target="1.7" />
+      <module name="ServerSendEvent-05" target="1.7" />
+      <module name="spring-boot-mvc" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

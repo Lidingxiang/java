@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-annotation" />
+        <module name="spring-boot-aware" />
+        <module name="spring-boot-di" />
+        <module name="spring-boot-el" />
+        <module name="spring-boot-event" />
+        <module name="spring-boot-profile" />
+        <module name="spring-boot-scop" />
+        <module name="spring-boot-taskexecutor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-annotation" target="1.7" />
+      <module name="spring-boot-aware" target="1.7" />
+      <module name="spring-boot-di" target="1.7" />
+      <module name="spring-boot-el" target="1.7" />
+      <module name="spring-boot-event" target="1.7" />
+      <module name="spring-boot-profile" target="1.7" />
+      <module name="spring-boot-scop" target="1.7" />
+      <module name="spring-boot-taskexecutor" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

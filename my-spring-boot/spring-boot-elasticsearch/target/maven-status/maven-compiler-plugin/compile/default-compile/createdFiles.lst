@@ -1,0 +1,8 @@
+com/dingxiang/model/Article.class
+com/dingxiang/ElasticConfiguration.class
+com/dingxiang/model/Author.class
+com/dingxiang/service/ArticleRepository.class
+com/dingxiang/model/Tutorial.class
+com/dingxiang/service/ArticleService.class
+com/dingxiang/App.class
+com/dingxiang/service/ArticleServiceImpl.class

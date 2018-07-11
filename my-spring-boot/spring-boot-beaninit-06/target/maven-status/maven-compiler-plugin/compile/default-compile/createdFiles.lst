@@ -1,0 +1,4 @@
+com/dingxiang/App.class
+com/dingxiang/beaninit/PrePostConfig.class
+com/dingxiang/beaninit/JSR250WayService.class
+com/dingxiang/beaninit/BeanWayService.class

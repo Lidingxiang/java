@@ -46,7 +46,6 @@ public class SinkSender {
 
         @Output(SinkOutput.OUTPUT)
         MessageChannel output();
-
     }
 }
 
