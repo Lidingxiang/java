@@ -31,6 +31,14 @@
             <artifactId>zkclient</artifactId>
             <version>0.1</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-client -->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-client</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+
         <!--<dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

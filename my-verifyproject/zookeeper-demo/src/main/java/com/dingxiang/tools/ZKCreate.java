@@ -1,5 +1,6 @@
 package com.dingxiang.tools;
 
+import org.apache.curator.utils.ZKPaths;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooDefs;
@@ -29,6 +30,10 @@ public class ZKCreate {
             }
         }
         while (pos < path.length());
+    }
+
+    public static void createPath(ZooKeeper zooKeeper, String path) throws KeeperException, InterruptedException {
+        ZKPaths.mkdirs(zooKeeper, path);
     }
 
     /*

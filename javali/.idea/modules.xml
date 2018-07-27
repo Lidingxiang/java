@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javali.iml" filepath="$PROJECT_DIR$/javali.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javali-rpc-cli/javali-rpc-cli.iml" filepath="$PROJECT_DIR$/javali-rpc-cli/javali-rpc-cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javali-rpc-server/javali-rpc-server.iml" filepath="$PROJECT_DIR$/javali-rpc-server/javali-rpc-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javalicore/javalicore.iml" filepath="$PROJECT_DIR$/javalicore/javalicore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javalirpc/javalirpc.iml" filepath="$PROJECT_DIR$/javalirpc/javalirpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-cli-demo/rpc-cli-demo.iml" filepath="$PROJECT_DIR$/rpc-cli-demo/rpc-cli-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-server-demo/rpc-server-demo.iml" filepath="$PROJECT_DIR$/rpc-server-demo/rpc-server-demo.iml" />
+    </modules>
+  </component>
+</project>

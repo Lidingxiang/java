@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javali-rpc-cli" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javali-rpc-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javalicore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javalirpc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-cli-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rpc-server-demo" charset="UTF-8" />
+  </component>
+</project>

@@ -2,8 +2,15 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/beancfg-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/collections-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/elasticsearch-geo-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/moduleboot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/predicate_consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/proxy-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/reflect-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thrift-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/thrift-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeeper-demo" charset="UTF-8" />
   </component>
 </project>

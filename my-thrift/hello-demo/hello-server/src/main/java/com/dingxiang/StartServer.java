@@ -54,36 +54,4 @@ public class StartServer {
             e.printStackTrace();
         }
     }
-
-    /**
-     * 启动Thrift服务器
-     */
-    /*private void startServer2() {
-        try {
-            //定义传输的socket，设置服务端口为6789
-            TServerSocket serverTransport = new TServerSocket(6789);
-
-            //设置协议工厂为TBinaryProtocol.Factory
-            TBinaryProtocol.Factory proFactory = new Factory(true,true);
-
-            //关联处理器与Hello服务的实现
-//            HelloWorldService.Processor processor = new HelloWorldService.Processor(new HelloWorldServiceImpl());
-            TProcessor processor = new HelloWorldService.Processor(new HelloWorldServiceImpl());
-
-
-
-            //定义服务端的参数值
-            Args args = new Args(serverTransport);
-            args.processor(processor);
-            args.protocolFactory(proFactory);
-
-            TServer server = new TThreadPoolServer(args);
-
-            //服务端开启服务
-            server.serve();
-
-        } catch (TTransportException e) {
-            e.printStackTrace();
-        }
-    }*/
 }

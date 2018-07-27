@@ -6,15 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="beancfg-demo" />
+        <module name="collections-demo" />
+        <module name="elasticsearch-geo-demo" />
+        <module name="moduleboot-starter" />
+        <module name="predicate_consumer" />
         <module name="proxy-demo" />
         <module name="reflect-demo" />
+        <module name="thrift-client" />
+        <module name="thrift-server" />
         <module name="zookeeper-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="my-verifyproject" target="1.7" />
+      <module name="beancfg-demo" target="1.8" />
+      <module name="collections-demo" target="1.7" />
+      <module name="elasticsearch-geo-demo" target="1.8" />
+      <module name="moduleboot-starter" target="1.8" />
+      <module name="my-verifyproject" target="1.8" />
+      <module name="predicate_consumer" target="1.8" />
       <module name="proxy-demo" target="1.7" />
       <module name="reflect-demo" target="1.7" />
+      <module name="thrift-client" target="1.8" />
+      <module name="thrift-server" target="1.8" />
       <module name="zookeeper-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -22,19 +22,21 @@ public class App {
         BasicConfigurator.configure();
         System.out.println("==========创建持久化目录节点==========");
 
-        String persistentPath = "/MyFirstZnode";
+        String persistentPath = "/MyFirstZnode/a/b/c";
         try {
             conn = new ZooKeeperConnection();
             zk = conn.connect(zkServerAddress);
 
-            //创建持久化目录节点
-            ZKCreate.createPersistentPath(zk, persistentPath);
+            ZKCreate.createPath(zk, persistentPath);
+
+            /*//创建持久化目录节点
+            ZKCreate.createPersistentPath(zk, persistentPath);*/
 
             //创建临时目录节点
             /*String dataPath = persistentPath + "/" + "172.18.115.15:8000";
             ZKCreate.createEphemeral(zk, dataPath);*/
 
-            //创建排序节点
+            /*//创建排序节点
             ZKCreate.createEphemeral_Sequential(zk,persistentPath);
 
             //判断节点是否存在
@@ -54,7 +56,7 @@ public class App {
 
             //获取节点数据
             String retData = ZKGetData.getData(zk, persistentPath);
-            System.out.println("===>retData数据为:" + retData);
+            System.out.println("===>retData数据为:" + retData);*/
 
             //删除节点
 //            ZKDelete.delete(zk, persistentPath);

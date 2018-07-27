@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/beancfg-demo/beancfg-demo.iml" filepath="$PROJECT_DIR$/beancfg-demo/beancfg-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections-demo/collections-demo.iml" filepath="$PROJECT_DIR$/collections-demo/collections-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elasticsearch-geo-demo/elasticsearch-geo-demo.iml" filepath="$PROJECT_DIR$/elasticsearch-geo-demo/elasticsearch-geo-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleboot-starter/moduleboot-starter.iml" filepath="$PROJECT_DIR$/moduleboot-starter/moduleboot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-verifyproject.iml" filepath="$PROJECT_DIR$/my-verifyproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/predicate_consumer/predicate_consumer.iml" filepath="$PROJECT_DIR$/predicate_consumer/predicate_consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy-demo/proxy-demo.iml" filepath="$PROJECT_DIR$/proxy-demo/proxy-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflect-demo/reflect-demo.iml" filepath="$PROJECT_DIR$/reflect-demo/reflect-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thrift-client/thrift-client.iml" filepath="$PROJECT_DIR$/thrift-client/thrift-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thrift-server/thrift-server.iml" filepath="$PROJECT_DIR$/thrift-server/thrift-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" filepath="$PROJECT_DIR$/zookeeper-demo/zookeeper-demo.iml" />
     </modules>
   </component>

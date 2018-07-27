@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="javali-rpc-cli" />
+        <module name="javali-rpc-server" />
+        <module name="javalicore" />
+        <module name="javalirpc" />
+        <module name="rpc-cli-demo" />
+        <module name="rpc-server-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javali" target="1.8" />
+      <module name="javali-rpc-cli" target="1.8" />
+      <module name="javali-rpc-server" target="1.8" />
+      <module name="javalicore" target="1.8" />
+      <module name="javalirpc" target="1.7" />
+      <module name="rpc-cli-demo" target="1.8" />
+      <module name="rpc-server-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

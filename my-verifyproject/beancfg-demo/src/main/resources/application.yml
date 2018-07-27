@@ -1,0 +1,14 @@
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb://172.18.115.31:27017,172.18.115.32:27017,172.18.115.33:27017/User
+
+cicada:
+  rpc:
+    clients:
+      - contract: com.dingxiang.userservicedriver.UserInfoService$Iface
+        serviceCentre:
+          respositoryServer: "172.18.115.15:2181"
+          name: "/Rpc/UserService.Server/V1.0"
+#debug: true
+
