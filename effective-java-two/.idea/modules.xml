@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/constructorprivate-04/constructorprivate-04.iml" filepath="$PROJECT_DIR$/constructorprivate-04/constructorprivate-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/construtor-02/construtor-02.iml" filepath="$PROJECT_DIR$/construtor-02/construtor-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/effective-java-two.iml" filepath="$PROJECT_DIR$/effective-java-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/equals-03-01/equals-03-01.iml" filepath="$PROJECT_DIR$/equals-03-01/equals-03-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hashcode-03-02/hashcode-03-02.iml" filepath="$PROJECT_DIR$/hashcode-03-02/hashcode-03-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-05/item-05.iml" filepath="$PROJECT_DIR$/item-05/item-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item-06/item-06.iml" filepath="$PROJECT_DIR$/item-06/item-06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music-01/music-01.iml" filepath="$PROJECT_DIR$/music-01/music-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-01/service-01.iml" filepath="$PROJECT_DIR$/service-01/service-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/singleton-03/singleton-03.iml" filepath="$PROJECT_DIR$/singleton-03/singleton-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/static-demo/static-demo.iml" filepath="$PROJECT_DIR$/static-demo/static-demo.iml" />
+    </modules>
+  </component>
+</project>

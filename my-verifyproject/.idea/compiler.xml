@@ -20,7 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="beancfg-demo" target="1.8" />
-      <module name="collections-demo" target="1.7" />
+      <module name="collections-demo" target="1.8" />
       <module name="elasticsearch-geo-demo" target="1.8" />
       <module name="moduleboot-starter" target="1.8" />
       <module name="my-verifyproject" target="1.8" />

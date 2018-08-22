@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="constructorprivate-04" />
+        <module name="construtor-02" />
+        <module name="equals-03-01" />
+        <module name="hashcode-03-02" />
+        <module name="item-05" />
+        <module name="item-06" />
+        <module name="music-01" />
+        <module name="service-01" />
+        <module name="singleton-03" />
+        <module name="static-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="constructorprivate-04" target="1.8" />
+      <module name="construtor-02" target="1.7" />
+      <module name="effective-java-two" target="1.8" />
+      <module name="equals-03-01" target="1.7" />
+      <module name="hashcode-03-02" target="1.7" />
+      <module name="item-05" target="1.7" />
+      <module name="item-06" target="1.7" />
+      <module name="music-01" target="1.7" />
+      <module name="service-01" target="1.8" />
+      <module name="singleton-03" target="1.7" />
+      <module name="static-demo" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
