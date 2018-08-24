@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo01.java" charset="GB2312" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo02.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/BuffereIn.java" charset="UTF-8" />
   </component>
 </project>
