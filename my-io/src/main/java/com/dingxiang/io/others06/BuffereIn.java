@@ -24,5 +24,4 @@ public class BuffereIn {
         String msg = br.readLine();
         System.out.println(msg);
     }
-
 }

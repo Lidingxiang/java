@@ -13,6 +13,7 @@ package com.dingxiang.io.pattern08;
  * @author Administrator
  */
 public class Amplifier {
+
     private Voice voice;
 
     public Amplifier() {

@@ -2,6 +2,7 @@ package com.dingxiang.io.pattern08;
 
 
 public class Voice {
+
     private int voice =10;
     public Voice() {
         // TODO Auto-generated constructor stub
@@ -16,5 +17,4 @@ public class Voice {
     public void say(){
         System.out.println(voice);
     }
-
 }

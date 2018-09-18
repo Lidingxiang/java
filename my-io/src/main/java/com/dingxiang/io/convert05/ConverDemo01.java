@@ -10,11 +10,11 @@ public class ConverDemo01 {
      * @throws UnsupportedEncodingException
      */
     public static void main(String[] args) throws UnsupportedEncodingException {
-        String str = "中国";
-        byte[] data = str.getBytes();
-        //字节数不完整
-        System.out.println(new String(data, 0, 3));
-
+//        String str = "中国";
+//        byte[] data = str.getBytes();
+//        //字节数不完整
+//        System.out.println(new String(data, 0, 3));
+        test1();
 
     }
 
@@ -30,6 +30,7 @@ public class ConverDemo01 {
         byte[] data = str.getBytes();
         //编码与解码字符集同一
         System.out.println(new String(data));
+
         data = str.getBytes("utf-8"); //设定编码字符集
         //不同一出现乱码
         System.out.println(new String(data));

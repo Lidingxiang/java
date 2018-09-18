@@ -49,9 +49,7 @@ public class DataDemo01 {
         File src = new File(destPath);
         //选择流
         DataInputStream dis = new DataInputStream(
-                new BufferedInputStream(
-                        new FileInputStream(src)
-                )
+                new BufferedInputStream(new FileInputStream(src))
         );
 
         //操作 读取的顺序与写出一致   必须存在才能读取
@@ -79,9 +77,7 @@ public class DataDemo01 {
         File dest = new File(destPath);
         //选择流  DataOutputStream
         DataOutputStream dos = new DataOutputStream(
-                new BufferedOutputStream(
-                        new FileOutputStream(dest)
-                )
+                new BufferedOutputStream(new FileOutputStream(dest))
         );
         //操作 写出的顺序 为读取准备
         dos.writeDouble(point);
@@ -91,8 +87,5 @@ public class DataDemo01 {
 
         //释放资源
         dos.close();
-
-
     }
-
 }

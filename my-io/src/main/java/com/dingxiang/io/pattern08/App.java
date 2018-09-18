@@ -10,7 +10,6 @@ public class App {
         v.say();
         Amplifier am = new Amplifier(v);
         am.say();
-
     }
 
 }

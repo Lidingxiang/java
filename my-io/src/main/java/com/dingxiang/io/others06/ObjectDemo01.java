@@ -39,9 +39,7 @@ public class ObjectDemo01 {
         File src = new File(destPath);
         //选择流
         ObjectInputStream dis = new ObjectInputStream(
-                new BufferedInputStream(
-                        new FileInputStream(src)
-                )
+                new BufferedInputStream(new FileInputStream(src))
         );
 
         //操作 读取的顺序与写出一致   必须存在才能读取
@@ -67,9 +65,7 @@ public class ObjectDemo01 {
         File dest = new File(destPath);
         //选择流  ObjectOutputStream
         ObjectOutputStream dos = new ObjectOutputStream(
-                new BufferedOutputStream(
-                        new FileOutputStream(dest)
-                )
+                new BufferedOutputStream(new FileOutputStream(dest))
         );
         //操作 写出的顺序 为读取准备
         dos.writeObject(emp);

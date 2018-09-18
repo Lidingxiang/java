@@ -46,8 +46,6 @@ public class ByteArrayDemo01 {
         //释放资源
         bos.close();
         return dest;
-
-
     }
 
 
@@ -62,9 +60,7 @@ public class ByteArrayDemo01 {
 
         //选择流
         InputStream is = new BufferedInputStream(
-                new ByteArrayInputStream(
-                        src
-                )
+                new ByteArrayInputStream(src)
         );
         //操作
         byte[] flush = new byte[1024];

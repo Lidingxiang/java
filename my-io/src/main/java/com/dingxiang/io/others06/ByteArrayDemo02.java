@@ -61,8 +61,6 @@ public class ByteArrayDemo02 {
         //释放资源
         os.close();
         is.close();
-
-
     }
 
 

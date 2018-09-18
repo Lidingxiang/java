@@ -45,9 +45,7 @@ public class DataDemo02 {
     public static void read(byte[] src) throws IOException {
         //选择流
         DataInputStream dis = new DataInputStream(
-                new BufferedInputStream(
-                        new ByteArrayInputStream(src)
-                )
+                new BufferedInputStream(new ByteArrayInputStream(src))
         );
 
         //操作 读取的顺序与写出一致   必须存在才能读取
@@ -58,7 +56,6 @@ public class DataDemo02 {
         dis.close();
 
         System.out.println(num1 + "-->" + num2 + "-->" + str);
-
     }
 
     /**
@@ -77,9 +74,7 @@ public class DataDemo02 {
         //选择流 ByteArrayOutputStream  DataOutputStream
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         DataOutputStream dos = new DataOutputStream(
-                new BufferedOutputStream(
-                        bos
-                )
+                new BufferedOutputStream(bos)
         );
         //操作 写出的顺序 为读取准备
         dos.writeDouble(point);
@@ -93,8 +88,5 @@ public class DataDemo02 {
         dos.close();
 
         return dest;
-
-
     }
-
 }

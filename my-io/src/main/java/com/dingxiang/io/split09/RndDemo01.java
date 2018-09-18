@@ -37,12 +37,7 @@ public class RndDemo01 {
             } else {
                 System.out.println(new String(flush, 0, len));
             }
-
         }
-
-
         FileUtil.close(rnd);
-
     }
-
 }

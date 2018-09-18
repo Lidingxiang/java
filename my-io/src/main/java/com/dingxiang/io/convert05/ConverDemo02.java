@@ -31,15 +31,12 @@ public class ConverDemo02 {
         //指定解码字符集
         BufferedReader br = new BufferedReader(
                 new InputStreamReader(
-                        new BufferedInputStream(
-                                new FileInputStream(
-                                        new File("E:/xp/test/Demo03.java"))), "UTF-8")
+                        new BufferedInputStream(new FileInputStream(new File("E:/xp/test/Demo03.java"))), "UTF-8")
         );
         //写出文件 编码
         BufferedWriter bw = new BufferedWriter(
                 new OutputStreamWriter(
-                        new BufferedOutputStream(
-                                new FileOutputStream(new File("E:/xp/test/encode.java")))));
+                        new BufferedOutputStream(new FileOutputStream(new File("E:/xp/test/encode.java")))));
 
         String info = null;
         while (null != (info = br.readLine())) {

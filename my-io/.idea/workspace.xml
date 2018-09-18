@@ -3,11 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="d66ddeb1-5cfe-45f5-bf99-572a5d3118b1" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/../my-effective-java/ddd.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-io.iml" afterPath="$PROJECT_DIR$/my-io.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo01.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo01.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo02.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo02.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo01.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo01.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo03.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo03.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/BuffereIn.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/BuffereIn.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ByteArrayDemo01.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ByteArrayDemo01.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ByteArrayDemo02.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ByteArrayDemo02.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/DataDemo01.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/DataDemo01.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/DataDemo02.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/DataDemo02.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ObjectDemo01.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ObjectDemo01.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/Amplifier.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/Amplifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/Voice.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/Voice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/split09/RndDemo01.java" afterPath="$PROJECT_DIR$/src/main/java/com/dingxiang/io/split09/RndDemo01.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-javassist/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my-javassist/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,9 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo02.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo03.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo04.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo05.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteIo02/Demo01.java" />
@@ -53,25 +61,28 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteChar03/Demo02.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteChar03/CopyFileDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/buffered04/BufferedByteDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/util07/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/util07/CopyFileDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/PrintStreamDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/SystemDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/split09/SplitFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/buffered04/BufferedCharDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo02.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ByteArrayDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ByteArrayDemo02.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/DataDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/DataDemo02.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ObjectDemo01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/util07/FileUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/util07/CopyFileDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/BuffereIn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/PrintStreamDemo01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/SystemDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/Voice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/Amplifier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo03.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/BuffereIn.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/split09/RndDemo01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dingxiang/io/split09/SplitFile.java" />
       </list>
     </option>
   </component>
@@ -81,7 +92,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="49" />
     <option name="y" value="-4" />
     <option name="width" value="1871" />
@@ -105,9 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,11 +123,40 @@
               <item name="my-io" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-io" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,6 +168,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.splitter.proportion" value="0.216763" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../my-thread" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -149,15 +187,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.BuffereIn">
+    <configuration name="BuffereIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.dingxiang.io.pattern08.*" />
+          <option name="PATTERN" value="com.dingxiang.io.others06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.dingxiang.io.pattern08.App" />
+      <option name="MAIN_CLASS_NAME" value="com.dingxiang.io.others06.BuffereIn" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -169,14 +207,14 @@
       <module name="my-io" />
       <envs />
     </configuration>
-    <configuration name="BuffereIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ConverDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.dingxiang.io.others06.*" />
+          <option name="PATTERN" value="com.dingxiang.io.convert05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.dingxiang.io.others06.BuffereIn" />
+      <option name="MAIN_CLASS_NAME" value="com.dingxiang.io.convert05.ConverDemo01" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -215,6 +253,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.dingxiang.io.file01.Demo02" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my-io" />
+      <envs />
+    </configuration>
+    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dingxiang.io.file01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.dingxiang.io.file01.Demo03" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -306,18 +363,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Demo01" />
       <item index="1" class="java.lang.String" itemvalue="Application.Demo02" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BuffereIn" />
-      <item index="3" class="java.lang.String" itemvalue="Application.App" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Demo03" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ConverDemo01" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BuffereIn" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.App" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BuffereIn" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Demo02" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Demo01" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.BuffereIn" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ConverDemo01" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Demo03" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Demo02" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Demo01" />
       </list>
     </recent_temporary>
   </component>
@@ -333,11 +392,13 @@
       <updated>1534924436727</updated>
       <workItem from="1534924444903" duration="5040000" />
       <workItem from="1534992707676" duration="13155000" />
+      <workItem from="1536112351948" duration="7242000" />
+      <workItem from="1536542083497" duration="7507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18195000" />
+    <option name="totallyTimeSpent" value="32944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -349,7 +410,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="-4" width="1871" height="1084" extended-state="7" />
+    <frame x="49" y="-4" width="1871" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -364,7 +426,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22580644" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23236741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -391,21 +453,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/split09/RndDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="540">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo03.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/Amplifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="101" column="48" lean-forward="true" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+        <state relative-caret-position="486">
+          <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/split09/SplitFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2358">
+          <caret line="149" column="37" lean-forward="true" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -416,17 +502,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo05.java">
+    <entry file="jar://$USER_HOME$/software/jdk1.8.0_121/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="-130">
+          <caret line="69" column="27" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="27" />
+          <folding>
+            <element signature="e#3011#3012#0" expanded="false" />
+            <element signature="e#3058#3059#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/Voice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="60" column="51" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="60" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        <state relative-caret-position="162">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#1018#1352#0" expanded="false" />
             <element signature="e#1351#1352#0" expanded="false" />
@@ -434,20 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteIo02/FileUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo05.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="106" column="40" lean-forward="false" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteIo02/CopyDir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+        <state relative-caret-position="648">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -456,18 +567,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteIo02/Demo02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="486">
+          <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteIo02/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteIo02/CopyDir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="80" column="29" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteIo02/CopyFileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="62" column="44" lean-forward="true" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteIo02/Demo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteChar03/Demo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        <state relative-caret-position="612">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="45" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -476,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteChar03/Demo02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="576">
+          <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -486,152 +633,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteChar03/CopyFileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="308">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteIo02/Demo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/byteIo02/CopyFileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/buffered04/BufferedCharDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/buffered04/BufferedByteDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="144">
+          <caret line="37" column="12" lean-forward="true" selection-start-line="37" selection-start-column="12" selection-end-line="60" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ByteArrayDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ByteArrayDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/DataDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/DataDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Employee#0" expanded="false" />
-            <element signature="method#Employee#0;class#Employee#0" expanded="false" />
-            <element signature="method#Employee#1;class#Employee#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ObjectDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/util07/CopyFileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1154">
-          <caret line="101" column="58" lean-forward="true" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+        <state relative-caret-position="-486">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/util07/FileUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/DataDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="612">
+          <caret line="78" column="24" lean-forward="false" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/DataDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ByteArrayDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/ByteArrayDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/convert05/ConverDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/BuffereIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="396">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -640,95 +737,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/PrintStreamDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="468">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/others06/SystemDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="614">
+          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/Voice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/util07/CopyFileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1728">
+          <caret line="103" column="11" lean-forward="true" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/util07/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/Amplifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="486">
+          <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
           <folding>
-            <element signature="e#401#402#0" expanded="false" />
-            <element signature="e#460#461#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/pattern08/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="144">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/split09/RndDemo01.java">
+    <entry file="jar://$USER_HOME$/software/jdk1.8.0_121/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/file01/Demo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="324">
+          <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/split09/SplitFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="149" column="37" lean-forward="true" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#4202#4215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/io/split09/RndDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

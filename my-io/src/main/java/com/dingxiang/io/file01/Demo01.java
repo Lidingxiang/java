@@ -27,5 +27,4 @@ public class Demo01 {
 		//ÍÆ¼ö·½Ê½
 		path="E:/xp/test/2.jpg";
 	}
-
 }
