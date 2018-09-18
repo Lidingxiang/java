@@ -5,6 +5,8 @@
 - 有关SpringBoot验证源码
 #### > my-spring-cloud
 - 读《Spring Cloud微服务实战》整理源码
+#### > my-batis
+- mybatis知识点验证源码
 
 ### ==框架使用验证==
 #### > Art-Concurrency
