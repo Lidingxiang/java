@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oath2-bll" />
+        <module name="oath2-client" />
+        <module name="oath2-driver" />
+        <module name="oath2-service" />
+        <module name="oath2-webapi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oath2" target="1.8" />
+      <module name="oath2-bll" target="1.7" />
+      <module name="oath2-client" target="1.7" />
+      <module name="oath2-driver" target="1.7" />
+      <module name="oath2-service" target="1.8" />
+      <module name="oath2-webapi" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

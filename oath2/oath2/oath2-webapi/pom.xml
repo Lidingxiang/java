@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>oath2</artifactId>
+        <groupId>com.ly</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>oath2-webapi</artifactId>
+    <name>oath2-webapi</name>
+
+    <!--    <properties>
+            <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+            <maven.compiler.source>1.7</maven.compiler.source>
+            <maven.compiler.target>1.7</maven.compiler.target>
+        </properties>-->
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ly</groupId>
+            <artifactId>oath2-bll</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.oschina.zcx7878</groupId>
+            <artifactId>cicada.boot-authorization</artifactId>
+            <version>${cicada.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>oath2-webapi</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

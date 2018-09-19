@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/oath2.iml" filepath="$PROJECT_DIR$/oath2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oath2-bll/oath2-bll.iml" filepath="$PROJECT_DIR$/oath2-bll/oath2-bll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oath2-client/oath2-client.iml" filepath="$PROJECT_DIR$/oath2-client/oath2-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oath2-driver/oath2-driver.iml" filepath="$PROJECT_DIR$/oath2-driver/oath2-driver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oath2-service/oath2-service.iml" filepath="$PROJECT_DIR$/oath2-service/oath2-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oath2-webapi/oath2-webapi.iml" filepath="$PROJECT_DIR$/oath2-webapi/oath2-webapi.iml" />
+    </modules>
+  </component>
+</project>

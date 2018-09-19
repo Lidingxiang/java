@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ly.bll.dao.AppinfoMapper" >
+  <resultMap id="BaseResultMap" type="com.ly.bll.model.Appinfo" >
+    <id column="AppId" property="appId" jdbcType="VARCHAR" />
+    <result column="AppName" property="appName" jdbcType="VARCHAR" />
+    <result column="AppType" property="appType" jdbcType="INTEGER" />
+    <result column="AppKey" property="appKey" jdbcType="VARCHAR" />
+    <result column="AppSecret" property="appSecret" jdbcType="VARCHAR" />
+    <result column="AppCreateDateTime" property="appCreateDateTime" jdbcType="TIMESTAMP" />
+    <result column="AppUrl" property="appUrl" jdbcType="VARCHAR" />
+    <result column="AppIntro" property="appIntro" jdbcType="VARCHAR" />
+    <result column="AppTags" property="appTags" jdbcType="VARCHAR" />
+    <result column="AppIcon16" property="appIcon16" jdbcType="VARCHAR" />
+    <result column="AppIcon80" property="appIcon80" jdbcType="VARCHAR" />
+    <result column="AppIcon120" property="appIcon120" jdbcType="VARCHAR" />
+    <result column="AppDesImage1" property="appDesImage1" jdbcType="VARCHAR" />
+    <result column="AppDesImage2" property="appDesImage2" jdbcType="VARCHAR" />
+    <result column="AppDesImage3" property="appDesImage3" jdbcType="VARCHAR" />
+    <result column="CallBackUrl" property="callBackUrl" jdbcType="VARCHAR" />
+    <result column="CancelCallBackUrl" property="cancelCallBackUrl" jdbcType="VARCHAR" />
+    <result column="AppState" property="appState" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.ly.bll.model.Appinfo" extends="BaseResultMap" >
+    <result column="AppDescription" property="appDescription" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    <if test="fields == null" >
+      AppId, AppName, AppType, AppKey, AppSecret, AppCreateDateTime, AppUrl, AppIntro, 
+      AppTags, AppIcon16, AppIcon80, AppIcon120, AppDesImage1, AppDesImage2, AppDesImage3, 
+      CallBackUrl, CancelCallBackUrl, AppState
+    </if>
+    <if test="fields != null" >
+      ${fields}
+    </if>
+  </sql>
+  <sql id="Blob_Column_List" >
+    AppDescription
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.ly.bll.model.AppinfoExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from AppInfo
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.ly.bll.model.AppinfoExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from AppInfo
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+    <if test="startRow != null" >
+      limit #{startRow} , #{pageSize}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.String" >
+    select 
+    AppId,AppName,AppType,AppKey,AppSecret,AppCreateDateTime,AppUrl,AppIntro,AppTags,AppIcon16,AppIcon80,AppIcon120,AppDesImage1,AppDesImage2,AppDesImage3,CallBackUrl,CancelCallBackUrl,AppState,AppDescription
+    ,
+    <include refid="Blob_Column_List" />
+    from AppInfo
+    where AppId = #{appId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from AppInfo
+    where AppId = #{appId,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.ly.bll.model.AppinfoExample" >
+    delete from AppInfo
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.ly.bll.model.Appinfo" >
+    insert into AppInfo (AppId, AppName, AppType, 
+      AppKey, AppSecret, AppCreateDateTime, 
+      AppUrl, AppIntro, AppTags, 
+      AppIcon16, AppIcon80, AppIcon120, 
+      AppDesImage1, AppDesImage2, AppDesImage3, 
+      CallBackUrl, CancelCallBackUrl, AppState, 
+      AppDescription)
+    values (#{appId,jdbcType=VARCHAR}, #{appName,jdbcType=VARCHAR}, #{appType,jdbcType=INTEGER}, 
+      #{appKey,jdbcType=VARCHAR}, #{appSecret,jdbcType=VARCHAR}, #{appCreateDateTime,jdbcType=TIMESTAMP}, 
+      #{appUrl,jdbcType=VARCHAR}, #{appIntro,jdbcType=VARCHAR}, #{appTags,jdbcType=VARCHAR}, 
+      #{appIcon16,jdbcType=VARCHAR}, #{appIcon80,jdbcType=VARCHAR}, #{appIcon120,jdbcType=VARCHAR}, 
+      #{appDesImage1,jdbcType=VARCHAR}, #{appDesImage2,jdbcType=VARCHAR}, #{appDesImage3,jdbcType=VARCHAR}, 
+      #{callBackUrl,jdbcType=VARCHAR}, #{cancelCallBackUrl,jdbcType=VARCHAR}, #{appState,jdbcType=INTEGER}, 
+      #{appDescription,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.ly.bll.model.Appinfo" >
+    insert into AppInfo
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="appId != null" >
+        AppId,
+      </if>
+      <if test="appName != null" >
+        AppName,
+      </if>
+      <if test="appType != null" >
+        AppType,
+      </if>
+      <if test="appKey != null" >
+        AppKey,
+      </if>
+      <if test="appSecret != null" >
+        AppSecret,
+      </if>
+      <if test="appCreateDateTime != null" >
+        AppCreateDateTime,
+      </if>
+      <if test="appUrl != null" >
+        AppUrl,
+      </if>
+      <if test="appIntro != null" >
+        AppIntro,
+      </if>
+      <if test="appTags != null" >
+        AppTags,
+      </if>
+      <if test="appIcon16 != null" >
+        AppIcon16,
+      </if>
+      <if test="appIcon80 != null" >
+        AppIcon80,
+      </if>
+      <if test="appIcon120 != null" >
+        AppIcon120,
+      </if>
+      <if test="appDesImage1 != null" >
+        AppDesImage1,
+      </if>
+      <if test="appDesImage2 != null" >
+        AppDesImage2,
+      </if>
+      <if test="appDesImage3 != null" >
+        AppDesImage3,
+      </if>
+      <if test="callBackUrl != null" >
+        CallBackUrl,
+      </if>
+      <if test="cancelCallBackUrl != null" >
+        CancelCallBackUrl,
+      </if>
+      <if test="appState != null" >
+        AppState,
+      </if>
+      <if test="appDescription != null" >
+        AppDescription,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="appId != null" >
+        #{appId,jdbcType=VARCHAR},
+      </if>
+      <if test="appName != null" >
+        #{appName,jdbcType=VARCHAR},
+      </if>
+      <if test="appType != null" >
+        #{appType,jdbcType=INTEGER},
+      </if>
+      <if test="appKey != null" >
+        #{appKey,jdbcType=VARCHAR},
+      </if>
+      <if test="appSecret != null" >
+        #{appSecret,jdbcType=VARCHAR},
+      </if>
+      <if test="appCreateDateTime != null" >
+        #{appCreateDateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="appUrl != null" >
+        #{appUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="appIntro != null" >
+        #{appIntro,jdbcType=VARCHAR},
+      </if>
+      <if test="appTags != null" >
+        #{appTags,jdbcType=VARCHAR},
+      </if>
+      <if test="appIcon16 != null" >
+        #{appIcon16,jdbcType=VARCHAR},
+      </if>
+      <if test="appIcon80 != null" >
+        #{appIcon80,jdbcType=VARCHAR},
+      </if>
+      <if test="appIcon120 != null" >
+        #{appIcon120,jdbcType=VARCHAR},
+      </if>
+      <if test="appDesImage1 != null" >
+        #{appDesImage1,jdbcType=VARCHAR},
+      </if>
+      <if test="appDesImage2 != null" >
+        #{appDesImage2,jdbcType=VARCHAR},
+      </if>
+      <if test="appDesImage3 != null" >
+        #{appDesImage3,jdbcType=VARCHAR},
+      </if>
+      <if test="callBackUrl != null" >
+        #{callBackUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="cancelCallBackUrl != null" >
+        #{cancelCallBackUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="appState != null" >
+        #{appState,jdbcType=INTEGER},
+      </if>
+      <if test="appDescription != null" >
+        #{appDescription,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.ly.bll.model.AppinfoExample" resultType="java.lang.Integer" >
+    select count(*) from AppInfo
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update AppInfo
+    <set >
+      <if test="record.appId != null" >
+        AppId = #{record.appId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appName != null" >
+        AppName = #{record.appName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appType != null" >
+        AppType = #{record.appType,jdbcType=INTEGER},
+      </if>
+      <if test="record.appKey != null" >
+        AppKey = #{record.appKey,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appSecret != null" >
+        AppSecret = #{record.appSecret,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appCreateDateTime != null" >
+        AppCreateDateTime = #{record.appCreateDateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.appUrl != null" >
+        AppUrl = #{record.appUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appIntro != null" >
+        AppIntro = #{record.appIntro,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appTags != null" >
+        AppTags = #{record.appTags,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appIcon16 != null" >
+        AppIcon16 = #{record.appIcon16,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appIcon80 != null" >
+        AppIcon80 = #{record.appIcon80,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appIcon120 != null" >
+        AppIcon120 = #{record.appIcon120,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appDesImage1 != null" >
+        AppDesImage1 = #{record.appDesImage1,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appDesImage2 != null" >
+        AppDesImage2 = #{record.appDesImage2,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appDesImage3 != null" >
+        AppDesImage3 = #{record.appDesImage3,jdbcType=VARCHAR},
+      </if>
+      <if test="record.callBackUrl != null" >
+        CallBackUrl = #{record.callBackUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="record.cancelCallBackUrl != null" >
+        CancelCallBackUrl = #{record.cancelCallBackUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="record.appState != null" >
+        AppState = #{record.appState,jdbcType=INTEGER},
+      </if>
+      <if test="record.appDescription != null" >
+        AppDescription = #{record.appDescription,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update AppInfo
+    set AppId = #{record.appId,jdbcType=VARCHAR},
+      AppName = #{record.appName,jdbcType=VARCHAR},
+      AppType = #{record.appType,jdbcType=INTEGER},
+      AppKey = #{record.appKey,jdbcType=VARCHAR},
+      AppSecret = #{record.appSecret,jdbcType=VARCHAR},
+      AppCreateDateTime = #{record.appCreateDateTime,jdbcType=TIMESTAMP},
+      AppUrl = #{record.appUrl,jdbcType=VARCHAR},
+      AppIntro = #{record.appIntro,jdbcType=VARCHAR},
+      AppTags = #{record.appTags,jdbcType=VARCHAR},
+      AppIcon16 = #{record.appIcon16,jdbcType=VARCHAR},
+      AppIcon80 = #{record.appIcon80,jdbcType=VARCHAR},
+      AppIcon120 = #{record.appIcon120,jdbcType=VARCHAR},
+      AppDesImage1 = #{record.appDesImage1,jdbcType=VARCHAR},
+      AppDesImage2 = #{record.appDesImage2,jdbcType=VARCHAR},
+      AppDesImage3 = #{record.appDesImage3,jdbcType=VARCHAR},
+      CallBackUrl = #{record.callBackUrl,jdbcType=VARCHAR},
+      CancelCallBackUrl = #{record.cancelCallBackUrl,jdbcType=VARCHAR},
+      AppState = #{record.appState,jdbcType=INTEGER},
+      AppDescription = #{record.appDescription,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update AppInfo
+    set AppId = #{record.appId,jdbcType=VARCHAR},
+      AppName = #{record.appName,jdbcType=VARCHAR},
+      AppType = #{record.appType,jdbcType=INTEGER},
+      AppKey = #{record.appKey,jdbcType=VARCHAR},
+      AppSecret = #{record.appSecret,jdbcType=VARCHAR},
+      AppCreateDateTime = #{record.appCreateDateTime,jdbcType=TIMESTAMP},
+      AppUrl = #{record.appUrl,jdbcType=VARCHAR},
+      AppIntro = #{record.appIntro,jdbcType=VARCHAR},
+      AppTags = #{record.appTags,jdbcType=VARCHAR},
+      AppIcon16 = #{record.appIcon16,jdbcType=VARCHAR},
+      AppIcon80 = #{record.appIcon80,jdbcType=VARCHAR},
+      AppIcon120 = #{record.appIcon120,jdbcType=VARCHAR},
+      AppDesImage1 = #{record.appDesImage1,jdbcType=VARCHAR},
+      AppDesImage2 = #{record.appDesImage2,jdbcType=VARCHAR},
+      AppDesImage3 = #{record.appDesImage3,jdbcType=VARCHAR},
+      CallBackUrl = #{record.callBackUrl,jdbcType=VARCHAR},
+      CancelCallBackUrl = #{record.cancelCallBackUrl,jdbcType=VARCHAR},
+      AppState = #{record.appState,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.ly.bll.model.Appinfo" >
+    update AppInfo
+    <set >
+      <if test="appName != null" >
+        AppName = #{appName,jdbcType=VARCHAR},
+      </if>
+      <if test="appType != null" >
+        AppType = #{appType,jdbcType=INTEGER},
+      </if>
+      <if test="appKey != null" >
+        AppKey = #{appKey,jdbcType=VARCHAR},
+      </if>
+      <if test="appSecret != null" >
+        AppSecret = #{appSecret,jdbcType=VARCHAR},
+      </if>
+      <if test="appCreateDateTime != null" >
+        AppCreateDateTime = #{appCreateDateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="appUrl != null" >
+        AppUrl = #{appUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="appIntro != null" >
+        AppIntro = #{appIntro,jdbcType=VARCHAR},
+      </if>
+      <if test="appTags != null" >
+        AppTags = #{appTags,jdbcType=VARCHAR},
+      </if>
+      <if test="appIcon16 != null" >
+        AppIcon16 = #{appIcon16,jdbcType=VARCHAR},
+      </if>
+      <if test="appIcon80 != null" >
+        AppIcon80 = #{appIcon80,jdbcType=VARCHAR},
+      </if>
+      <if test="appIcon120 != null" >
+        AppIcon120 = #{appIcon120,jdbcType=VARCHAR},
+      </if>
+      <if test="appDesImage1 != null" >
+        AppDesImage1 = #{appDesImage1,jdbcType=VARCHAR},
+      </if>
+      <if test="appDesImage2 != null" >
+        AppDesImage2 = #{appDesImage2,jdbcType=VARCHAR},
+      </if>
+      <if test="appDesImage3 != null" >
+        AppDesImage3 = #{appDesImage3,jdbcType=VARCHAR},
+      </if>
+      <if test="callBackUrl != null" >
+        CallBackUrl = #{callBackUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="cancelCallBackUrl != null" >
+        CancelCallBackUrl = #{cancelCallBackUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="appState != null" >
+        AppState = #{appState,jdbcType=INTEGER},
+      </if>
+      <if test="appDescription != null" >
+        AppDescription = #{appDescription,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where AppId = #{appId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.ly.bll.model.Appinfo" >
+    update AppInfo
+    set AppName = #{appName,jdbcType=VARCHAR},
+      AppType = #{appType,jdbcType=INTEGER},
+      AppKey = #{appKey,jdbcType=VARCHAR},
+      AppSecret = #{appSecret,jdbcType=VARCHAR},
+      AppCreateDateTime = #{appCreateDateTime,jdbcType=TIMESTAMP},
+      AppUrl = #{appUrl,jdbcType=VARCHAR},
+      AppIntro = #{appIntro,jdbcType=VARCHAR},
+      AppTags = #{appTags,jdbcType=VARCHAR},
+      AppIcon16 = #{appIcon16,jdbcType=VARCHAR},
+      AppIcon80 = #{appIcon80,jdbcType=VARCHAR},
+      AppIcon120 = #{appIcon120,jdbcType=VARCHAR},
+      AppDesImage1 = #{appDesImage1,jdbcType=VARCHAR},
+      AppDesImage2 = #{appDesImage2,jdbcType=VARCHAR},
+      AppDesImage3 = #{appDesImage3,jdbcType=VARCHAR},
+      CallBackUrl = #{callBackUrl,jdbcType=VARCHAR},
+      CancelCallBackUrl = #{cancelCallBackUrl,jdbcType=VARCHAR},
+      AppState = #{appState,jdbcType=INTEGER},
+      AppDescription = #{appDescription,jdbcType=LONGVARCHAR}
+    where AppId = #{appId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.ly.bll.model.Appinfo" >
+    update AppInfo
+    set AppName = #{appName,jdbcType=VARCHAR},
+      AppType = #{appType,jdbcType=INTEGER},
+      AppKey = #{appKey,jdbcType=VARCHAR},
+      AppSecret = #{appSecret,jdbcType=VARCHAR},
+      AppCreateDateTime = #{appCreateDateTime,jdbcType=TIMESTAMP},
+      AppUrl = #{appUrl,jdbcType=VARCHAR},
+      AppIntro = #{appIntro,jdbcType=VARCHAR},
+      AppTags = #{appTags,jdbcType=VARCHAR},
+      AppIcon16 = #{appIcon16,jdbcType=VARCHAR},
+      AppIcon80 = #{appIcon80,jdbcType=VARCHAR},
+      AppIcon120 = #{appIcon120,jdbcType=VARCHAR},
+      AppDesImage1 = #{appDesImage1,jdbcType=VARCHAR},
+      AppDesImage2 = #{appDesImage2,jdbcType=VARCHAR},
+      AppDesImage3 = #{appDesImage3,jdbcType=VARCHAR},
+      CallBackUrl = #{callBackUrl,jdbcType=VARCHAR},
+      CancelCallBackUrl = #{cancelCallBackUrl,jdbcType=VARCHAR},
+      AppState = #{appState,jdbcType=INTEGER}
+    where AppId = #{appId,jdbcType=VARCHAR}
+  </update>
+</mapper>
