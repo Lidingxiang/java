@@ -1,0 +1,6 @@
+/data2/code2/java/my-cicada/cicada.boot-thrift.service/src/main/java/cicada/thrift/server/RpcServerImpl.java
+/data2/code2/java/my-cicada/cicada.boot-thrift.service/src/main/java/cicada/thrift/zookeeper/ServicePublisherImpl.java
+/data2/code2/java/my-cicada/cicada.boot-thrift.service/src/main/java/cicada/thrift/zookeeper/ConnectionFailProcessMode.java
+/data2/code2/java/my-cicada/cicada.boot-thrift.service/src/main/java/cicada/thrift/server/ServerConfiguration.java
+/data2/code2/java/my-cicada/cicada.boot-thrift.service/src/main/java/cicada/thrift/server/RpcServer.java
+/data2/code2/java/my-cicada/cicada.boot-thrift.service/src/main/java/cicada/thrift/zookeeper/ServicePublisher.java

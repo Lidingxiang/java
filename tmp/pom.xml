@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.dingxiang</groupId>
+  <artifactId>tmp</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>tmp</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/net.oschina.zcx7878/cicada.core -->
+    <!-- https://mvnrepository.com/artifact/net.oschina.zcx7878/fastdfs-client-java -->
+    <!--<dependency>-->
+      <!--<groupId>net.oschina.zcx7878</groupId>-->
+      <!--<artifactId>fastdfs-client-java</artifactId>-->
+      <!--<version>1.27.0.0</version>-->
+    <!--</dependency>-->
+    <!-- https://mvnrepository.com/artifact/net.oschina.zcx7878/cicada.boot-mq.send -->
+    <dependency>
+      <groupId>net.oschina.zcx7878</groupId>
+      <artifactId>cicada.boot-mq.send</artifactId>
+      <version>1.0.6.2</version>
+    </dependency>
+
+
+  </dependencies>
+</project>

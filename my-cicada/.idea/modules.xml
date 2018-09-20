@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cicada.boot-authorization/cicada.boot-authorization.iml" filepath="$PROJECT_DIR$/cicada.boot-authorization/cicada.boot-authorization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cicada.boot-core/cicada.boot-core.iml" filepath="$PROJECT_DIR$/cicada.boot-core/cicada.boot-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cicada.boot-filesystem/cicada.boot-filesystem.iml" filepath="$PROJECT_DIR$/cicada.boot-filesystem/cicada.boot-filesystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cicada.boot-mq.receive/cicada.boot-mq.receive.iml" filepath="$PROJECT_DIR$/cicada.boot-mq.receive/cicada.boot-mq.receive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cicada.boot-mq.send/cicada.boot-mq.send.iml" filepath="$PROJECT_DIR$/cicada.boot-mq.send/cicada.boot-mq.send.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cicada.boot-mybatis/cicada.boot-mybatis.iml" filepath="$PROJECT_DIR$/cicada.boot-mybatis/cicada.boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cicada.boot-thrift/cicada.boot-thrift.iml" filepath="$PROJECT_DIR$/cicada.boot-thrift/cicada.boot-thrift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cicada.boot-thrift.service/cicada.boot-thrift.service.iml" filepath="$PROJECT_DIR$/cicada.boot-thrift.service/cicada.boot-thrift.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cicada.boot-web/cicada.boot-web.iml" filepath="$PROJECT_DIR$/cicada.boot-web/cicada.boot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-cicada.iml" filepath="$PROJECT_DIR$/my-cicada.iml" />
+    </modules>
+  </component>
+</project>

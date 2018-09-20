@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cicada.boot-authorization" />
+        <module name="cicada.boot-core" />
+        <module name="cicada.boot-filesystem" />
+        <module name="cicada.boot-mq.receive" />
+        <module name="cicada.boot-mq.send" />
+        <module name="cicada.boot-mybatis" />
+        <module name="cicada.boot-thrift" />
+        <module name="cicada.boot-thrift.service" />
+        <module name="cicada.boot-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cicada.boot-authorization" target="1.8" />
+      <module name="cicada.boot-core" target="1.8" />
+      <module name="cicada.boot-filesystem" target="1.8" />
+      <module name="cicada.boot-mq.receive" target="1.8" />
+      <module name="cicada.boot-mq.send" target="1.8" />
+      <module name="cicada.boot-mybatis" target="1.8" />
+      <module name="cicada.boot-thrift" target="1.8" />
+      <module name="cicada.boot-thrift.service" target="1.8" />
+      <module name="cicada.boot-web" target="1.8" />
+      <module name="cicada.core" target="1.7" />
+      <module name="fastdfs-client-java" target="1.7" />
+      <module name="my-cicada" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

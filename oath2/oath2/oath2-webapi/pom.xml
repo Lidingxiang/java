@@ -30,6 +30,12 @@
             <artifactId>cicada.boot-authorization</artifactId>
             <version>${cicada.version}</version>
         </dependency>
+        <dependency>
+            <groupId>net.oschina.zcx7878</groupId>
+            <artifactId>cicada.boot-web</artifactId>
+            <version>${cicada.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>

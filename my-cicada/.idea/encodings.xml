@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cicada.boot-authorization" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cicada.boot-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cicada.boot-filesystem" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cicada.boot-mq.receive" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cicada.boot-mq.send" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cicada.boot-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cicada.boot-thrift" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cicada.boot-thrift.service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cicada.boot-web" charset="UTF-8" />
+  </component>
+</project>

@@ -15,9 +15,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="oath2" target="1.8" />
-      <module name="oath2-bll" target="1.7" />
-      <module name="oath2-client" target="1.7" />
-      <module name="oath2-driver" target="1.7" />
+      <module name="oath2-bll" target="1.8" />
+      <module name="oath2-client" target="1.8" />
+      <module name="oath2-driver" target="1.8" />
       <module name="oath2-service" target="1.8" />
       <module name="oath2-webapi" target="1.8" />
     </bytecodeTargetLevel>

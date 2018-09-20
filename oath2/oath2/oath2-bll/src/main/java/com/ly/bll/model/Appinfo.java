@@ -1,26 +1,30 @@
 package com.ly.bll.model;
 
-import cicada.web.valid.InsertCheck;
+
+import cicada.core.valid.InsertCheck;
+/*
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import org.hibernate.validator.constraints.NotBlank;
+*/
+
 import java.io.Serializable;
 import java.util.Date;
-import org.hibernate.validator.constraints.NotBlank;
 
-@ApiModel(value ="AppInfo", description ="AppInfo" )
+//@ApiModel(value ="AppInfo", description ="AppInfo" )
 public class Appinfo implements Serializable {
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = true)
-    @NotBlank(message="字段appId不能为空",groups ={InsertCheck.class})
+    /*@ApiModelProperty(value ="", required = true)
+    @NotBlank(message="字段appId不能为空",groups ={InsertCheck.class})*/
     private String appId;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = true)
-    @NotBlank(message="字段appName不能为空",groups ={InsertCheck.class})
+//    @ApiModelProperty(value ="", required = true)
+//    @NotBlank(message="字段appName不能为空",groups ={InsertCheck.class})
     private String appName;
 
     /**
@@ -28,96 +32,96 @@ public class Appinfo implements Serializable {
             1：网站应用
             2：其它
      */
-    @ApiModelProperty(value ="0：App应用1：网站应用2：其它", required = true)
+//    @ApiModelProperty(value ="0：App应用1：网站应用2：其它", required = true)
     private Integer appType;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = true)
-    @NotBlank(message="字段appKey不能为空",groups ={InsertCheck.class})
+//    @ApiModelProperty(value ="", required = true)
+//    @NotBlank(message="字段appKey不能为空",groups ={InsertCheck.class})
     private String appKey;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = true)
-    @NotBlank(message="字段appSecret不能为空",groups ={InsertCheck.class})
+//    @ApiModelProperty(value ="", required = true)
+//    @NotBlank(message="字段appSecret不能为空",groups ={InsertCheck.class})
     private String appSecret;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = true)
+//    @ApiModelProperty(value ="", required = true)
     private Date appCreateDateTime;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = true)
-    @NotBlank(message="字段appUrl不能为空",groups ={InsertCheck.class})
+//    @ApiModelProperty(value ="", required = true)
+//    @NotBlank(message="字段appUrl不能为空",groups ={InsertCheck.class})
     private String appUrl;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = true)
-    @NotBlank(message="字段appIntro不能为空",groups ={InsertCheck.class})
+//    @ApiModelProperty(value ="", required = true)
+//    @NotBlank(message="字段appIntro不能为空",groups ={InsertCheck.class})
     private String appIntro;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = true)
-    @NotBlank(message="字段appTags不能为空",groups ={InsertCheck.class})
+//    @ApiModelProperty(value ="", required = true)
+//    @NotBlank(message="字段appTags不能为空",groups ={InsertCheck.class})
     private String appTags;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = false)
+//    @ApiModelProperty(value ="", required = false)
     private String appIcon16;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = false)
+//    @ApiModelProperty(value ="", required = false)
     private String appIcon80;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = false)
+//    @ApiModelProperty(value ="", required = false)
     private String appIcon120;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = false)
+//    @ApiModelProperty(value ="", required = false)
     private String appDesImage1;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = false)
+//    @ApiModelProperty(value ="", required = false)
     private String appDesImage2;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = false)
+//    @ApiModelProperty(value ="", required = false)
     private String appDesImage3;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = false)
+//    @ApiModelProperty(value ="", required = false)
     private String callBackUrl;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = false)
+//    @ApiModelProperty(value ="", required = false)
     private String cancelCallBackUrl;
 
     /**
@@ -126,14 +130,14 @@ public class Appinfo implements Serializable {
             2：已驳回
             3：已通过
      */
-    @ApiModelProperty(value ="0：待完善1：待审核2：已驳回3：已通过", required = true)
+//    @ApiModelProperty(value ="0：待完善1：待审核2：已驳回3：已通过", required = true)
     private Integer appState;
 
     /**
      * 
      */
-    @ApiModelProperty(value ="", required = true)
-    @NotBlank(message="字段appDescription不能为空",groups ={InsertCheck.class})
+//    @ApiModelProperty(value ="", required = true)
+//    @NotBlank(message="字段appDescription不能为空",groups ={InsertCheck.class})
     private String appDescription;
 
     private static final long serialVersionUID = 1L;

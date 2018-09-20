@@ -2,7 +2,8 @@ package com.ly.webapi.controller;
 
 import cicada.authorization.UserAuthorization;
 import cicada.core.Ret;
-import cicada.web.valid.InsertCheck;
+
+import cicada.core.valid.InsertCheck;
 import com.google.common.base.Strings;
 import com.ly.bll.dao.AppinfoMapper;
 import com.ly.bll.model.Appinfo;

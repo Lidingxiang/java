@@ -24,7 +24,7 @@ public class AppInfoService implements OAth2AppInfoService.Iface {
             getAppInfoRet.setStatus(GetAppInfoStatus.InvalidUserBaseId);
             return getAppInfoRet;
         }
-        Appinfo appinfo = mapper.selectByPrimaryKey("");
+        Appinfo appinfo = mapper.selectByPrimaryKey("ce0e4e2450c0414f9f9c30848e7621dd");
         if (null == appinfo) {
             getAppInfoRet.setStatus(GetAppInfoStatus.NoExist);
             return getAppInfoRet;

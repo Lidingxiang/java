@@ -25,15 +25,22 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <cicada.version>1.0.6.2</cicada.version>
+        <cicada.version>1.0.6.3</cicada.version>
+        <spring.version>4.3.1.4</spring.version>
+
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
-        </dependency>
+
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--<dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
+            </dependency>-->
+        </dependencies>
+    </dependencyManagement>
 </project>
