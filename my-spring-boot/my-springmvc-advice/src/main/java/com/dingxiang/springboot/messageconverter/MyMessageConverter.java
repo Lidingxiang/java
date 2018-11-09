@@ -35,6 +35,14 @@ public class MyMessageConverter extends AbstractHttpMessageConverter<DemoObj> {/
      */
     @Override
     protected boolean supports(Class<?> clazz) {
+        String a1=Integer.toString(11);
+        int a2=Integer.parseInt("22");
+
+        String a3= String.valueOf("222");
+        
+
+
+
         return DemoObj.class.isAssignableFrom(clazz);
     }
 

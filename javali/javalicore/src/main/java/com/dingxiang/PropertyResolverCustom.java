@@ -14,7 +14,7 @@ public class PropertyResolverCustom {
 
     public static Map<String, String> getConfigProperties(String fileFullPath) throws IOException {
         InputStreamReader inputStream = null;
-        Map<String, String> result = new HashMap<String, String>();
+        Map<String, String> result = new HashMap<>();
         try {
             inputStream = new InputStreamReader(PropertyResolverCustom.class.getClassLoader().getResourceAsStream(fileFullPath.toLowerCase()), "UTF-8");
             Properties properties = new Properties();

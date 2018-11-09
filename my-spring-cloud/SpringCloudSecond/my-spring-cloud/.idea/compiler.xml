@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="command-pattern" />
+        <module name="eureka-server" />
+        <module name="eureka-server-01" />
+        <module name="eureka-server-ha" />
+        <module name="eureka-server-ha-03" />
+        <module name="feign-consumer" />
+        <module name="feign-consumer-11" />
+        <module name="hello-service-api-12" />
+        <module name="hystrix-dashboard-08" />
+        <module name="ribbon-consumer-05" />
+        <module name="ribbon-consumer-06" />
+        <module name="ribbon-consumer-07" />
+        <module name="spring-boot-helloword-02" />
+        <module name="spring-boot-helloword-04" />
+        <module name="spring-boot-helloword-13" />
+        <module name="turbine-09" />
+        <module name="turbine-amqp-10" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="command-pattern" target="1.8" />
+      <module name="eureka-server" target="1.7" />
+      <module name="eureka-server-01" target="1.8" />
+      <module name="eureka-server-ha" target="1.8" />
+      <module name="eureka-server-ha-03" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="feign-consumer-11" target="1.8" />
+      <module name="hello-service-12" target="1.8" />
+      <module name="hello-service-api-12" target="1.8" />
+      <module name="hystrix-dashboard-08" target="1.8" />
+      <module name="my-spring-cloud" target="1.8" />
+      <module name="ribbon-consumer-05" target="1.8" />
+      <module name="ribbon-consumer-06" target="1.8" />
+      <module name="ribbon-consumer-07" target="1.8" />
+      <module name="spring-boot-helloword-02" target="1.8" />
+      <module name="spring-boot-helloword-04" target="1.8" />
+      <module name="spring-boot-helloword-13" target="1.8" />
+      <module name="turbine-09" target="1.8" />
+      <module name="turbine-amqp-10" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

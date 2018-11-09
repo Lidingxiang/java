@@ -2,322 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca549811-8737-4bc9-b1b6-e9e8b384ccc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-hello3/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-hello3/src/main/java/dingxiang/com/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-hello3/src/main/java/dingxiang/com/SinkReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-hello3/src/main/java/dingxiang/com/SinkSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-hello3/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-hello3/src/test/java/dingxiang/com/HelloAppTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-producer/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-producer/src/main/java/dingxiang/com/SinkSender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-1/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-1/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-2/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-2/src/main/java/dingxiang/com/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-2/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-2/src/test/java/dingxiang/com/AppTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-stream-1/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-stream-1/src/main/java/dingxiang/com/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-stream-1/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-stream-1/src/test/java/dingxiang/com/AppTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-stream-2/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-stream-2/src/main/java/dingxiang/com/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-stream-2/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/trace-stream-2/src/test/java/dingxiang/com/AppTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/zipkin-server-stream/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/zipkin-server-stream/src/main/java/dingxiang/com/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/zipkin-server-stream/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/zipkin-server-stream/src/test/java/dingxiang/com/AppTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/zipkin-server/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_spring_aop_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_spring_beans_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_spring_context_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_spring_core_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_spring_expression_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_spring_test_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_spring_web_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/.keystore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/ch7_4.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/src/main/java/com/dingxiang/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/src/main/java/com/dingxiang/CustomServletContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/src/main/resources/static/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/src/main/resources/static/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/src/main/resources/static/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/src/test/java/com/dingxiang/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/target/classes/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/target/classes/static/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/target/classes/static/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_4/target/classes/static/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_2_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_1_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_spring_aop_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_spring_beans_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_spring_context_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_spring_core_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_spring_expression_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_spring_test_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_spring_web_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_springframework_spring_websocket_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/spring-boot-websocket.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/main/java/com/dingxiang/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/main/java/com/dingxiang/ch7_6/WebMvcConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/main/java/com/dingxiang/ch7_6/WebSecurityConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/main/java/com/dingxiang/ch7_6/WebSocketConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/main/java/com/dingxiang/ch7_6/domain/WiselyMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/main/java/com/dingxiang/ch7_6/domain/WiselyResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/main/java/com/dingxiang/ch7_6/web/WsController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/resources/static/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/resources/static/sockjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/resources/static/stomp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/resources/templates/chat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/resources/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/resources/templates/ws.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/src/test/java/com/dingxiang/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/target/classes/static/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/target/classes/static/sockjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/target/classes/static/stomp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/target/classes/templates/chat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/target/classes/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/target/classes/templates/ws.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6 _2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_2_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_0_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_3_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_spring_aop_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_spring_beans_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_spring_context_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_spring_core_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_spring_expression_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_spring_test_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_spring_web_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_springframework_spring_websocket_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_4_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/spring-boot-websocket.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/main/java/com/dingxiang/App.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/main/java/com/dingxiang/ch7_6/WebMvcConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/main/java/com/dingxiang/ch7_6/WebSocketConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/main/java/com/dingxiang/ch7_6/domain/WiselyMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/main/java/com/dingxiang/ch7_6/domain/WiselyResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/main/java/com/dingxiang/ch7_6/web/WsController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/resources/static/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/resources/static/sockjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/resources/static/stomp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/resources/templates/ws.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/src/test/java/com/dingxiang/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/target/classes/static/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/target/classes/static/sockjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/target/classes/static/stomp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/ch7_6/target/classes/templates/ws.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_0_M1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__org_springframework_spring_aop_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__org_springframework_spring_beans_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__org_springframework_spring_context_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__org_springframework_spring_core_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__org_springframework_spring_expression_4_2_0_RC1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/spring-boot-starter-hello.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/src/main/java/com/dingxiang/spring_boot_starter_hello/HelloService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/src/main/java/com/dingxiang/spring_boot_starter_hello/HelloServiceAutoConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/src/main/java/com/dingxiang/spring_boot_starter_hello/HelloServiceProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/src/main/resources/META_INFO/spring.factories" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/src/test/java/com/dingxiang/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/target/classes/META_INFO/spring.factories" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/target/surefire-reports/TEST-com.dingxiang.AppTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-starter-hello/target/surefire-reports/com.dingxiang.AppTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/springboot-test-el/target/classes/com/dingxiang/springboot/aware/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/springboot-test-el/target/classes/com/dingxiang/springboot/el/test.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-spring-boot/springboot-test-el/target/classes/com/dingxiang/springboot/el/test.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springboot-start/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springboot-start/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springboot-start/pom.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springboot-start/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springboot-thymeleaf/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springboot-thymeleaf/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/classes/views/async.jsp" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/classes/views/async.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/classes/views/sse.jsp" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/classes/views/sse.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/my-springmvc-advice-1.0-SNAPSHOT/WEB-INF/classes/views/async.jsp" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/my-springmvc-advice-1.0-SNAPSHOT/WEB-INF/classes/views/async.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/my-springmvc-advice-1.0-SNAPSHOT/WEB-INF/classes/views/sse.jsp" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/my-springmvc-advice-1.0-SNAPSHOT/WEB-INF/classes/views/sse.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/surefire-reports/TEST-com.dingxiang.springboot.AppTest.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/surefire-reports/TEST-com.dingxiang.springboot.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/surefire-reports/TEST-com.dingxiang.springboot.web.ch4_6.TestControllerIntegrationTests.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/surefire-reports/TEST-com.dingxiang.springboot.web.ch4_6.TestControllerIntegrationTests.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/surefire-reports/com.dingxiang.springboot.AppTest.txt" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/surefire-reports/com.dingxiang.springboot.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/surefire-reports/com.dingxiang.springboot.web.ch4_6.TestControllerIntegrationTests.txt" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-advice/target/surefire-reports/com.dingxiang.springboot.web.ch4_6.TestControllerIntegrationTests.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-mapping/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc-mapping/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc/target/surefire-reports/TEST-com.dingxiang.springboot.AppTest.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc/target/surefire-reports/TEST-com.dingxiang.springboot.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/my-springmvc/target/surefire-reports/com.dingxiang.springboot.AppTest.txt" afterPath="$PROJECT_DIR$/../my-spring-boot/my-springmvc/target/surefire-reports/com.dingxiang.springboot.AppTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-mongo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/spring-boot-mongo/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/spring-boot-test/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/springboot-test-el/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my-spring-boot/springboot-test-el/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/springboot-test-el/src/main/java/com/dingxiang/springboot/aop/Action.java" afterPath="$PROJECT_DIR$/../my-spring-boot/springboot-test-el/src/main/java/com/dingxiang/springboot/aop/Action.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/.idea/misc.xml" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/.idea/modules.xml" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/config-client-eureka/pom.xml" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/config-client-eureka/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/config-server-eureka/pom.xml" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/config-server-eureka/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/pom.xml" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-hello/src/main/java/dingxiang/com/SinkReceiver.java" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-hello/src/main/java/dingxiang/com/SinkReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-hello/src/test/java/dingxiang/com/AppTest.java" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/stream-hello/src/test/java/dingxiang/com/AppTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudBook-master/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudBook-master/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudBook-master/stream-consumer/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudBook-master/stream-consumer/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudBook-master/stream-producer/src/main/java/com/didispace/SinkSender.java" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudBook-master/stream-producer/src/main/java/com/didispace/SinkSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudBook-master/trace-2/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudBook-master/trace-2/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/eureka-server-01/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/hystrix-dashboard-08/hystrix-dashboard-08.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/hystrix-dashboard-08/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/hystrix-dashboard-08/src/main/java/com/dingxiang/HystrixDashboardApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/hystrix-dashboard-08/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/ribbon-consumer-05/ribbon-consumer-05.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/ribbon-consumer-07/ribbon-consumer-07.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/ribbon-consumer-07/src/main/java/dingxiang/com/web/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/ribbon-consumer-07/src/main/java/dingxiang/com/web/UserGetCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/spring-boot-helloword-02/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/spring-boot-helloword-04/spring-boot-helloword-04.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/spring-boot-helloword-13/spring-boot-helloword-13.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/turbine-09/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/turbine-09/src/main/java/com/dingxiang/TurbineApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/turbine-09/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/turbine-09/turbine-09.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../my-spring-cloud/SpringCloudSecond/my-spring-cloud/turbine-amqp-10/turbine-amqp-10.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../my-effective-java/ddd.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-batis/IdeaProject" afterPath="$PROJECT_DIR$/../my-batis/IdeaProject" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-batis/MyBatis_Study" afterPath="$PROJECT_DIR$/../my-batis/MyBatis_Study" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../javali/javalicore/src/main/java/com/dingxiang/PropertyResolverCustom.java" afterPath="$PROJECT_DIR$/../javali/javalicore/src/main/java/com/dingxiang/PropertyResolverCustom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-cicada/cicada.boot-authorization/src/main/java/cicada/authorization/AuthorizationInterceptor.java" afterPath="$PROJECT_DIR$/../my-cicada/cicada.boot-authorization/src/main/java/cicada/authorization/AuthorizationInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-boot/spring-boot-redis/src/main/java/com/dingxiang/domain/PersonDao.java" afterPath="$PROJECT_DIR$/../my-spring-boot/spring-boot-redis/src/main/java/com/dingxiang/domain/PersonDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/api-gateway-dynamic-route/src/main/java/dingxiang/com/App.java" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/api-gateway-dynamic-route/src/main/java/dingxiang/com/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/api-gateway/src/main/java/dingxiang/com/App.java" afterPath="$PROJECT_DIR$/../my-spring-cloud/Spring-Cloud-Book/api-gateway/src/main/java/dingxiang/com/App.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -343,87 +52,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZKCreate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKCreate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZKGetChildren.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKGetChildren.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZKGetData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKGetData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="59" column="50" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-              <folding>
-                <element signature="e#1098#2113#0" expanded="true" />
-                <element signature="e#2112#2113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZKSetData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKSetData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZooKeeperConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZooKeeperConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#690#915#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZKDelete.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKDelete.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZooKeeperTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ZooKeeperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -500,7 +129,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="49" />
+    <option name="x" value="1969" />
     <option name="y" value="-4" />
     <option name="width" value="1871" />
     <option name="height" value="1084" />
@@ -524,7 +153,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -576,6 +204,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -584,7 +213,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/code/UserService/src/java/usersearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -816,6 +445,7 @@
       <workItem from="1530233478360" duration="10238000" />
       <workItem from="1530761654027" duration="968000" />
       <workItem from="1531190218946" duration="7852000" />
+      <workItem from="1539245551849" duration="1631000" />
     </task>
     <servers />
   </component>
@@ -852,38 +482,37 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29154000" />
+    <option name="totallyTimeSpent" value="30785000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="-4" width="1871" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="1969" y="-4" width="1871" height="1084" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14453961" sideWeight="0.4980864" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5019136" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21323128" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44860813" sideWeight="0.4980864" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26980728" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2252597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22744669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968834" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19914347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19914347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14453961" sideWeight="0.4980864" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44860813" sideWeight="0.4980864" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968834" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -918,9 +547,76 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKCreate.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKGetChildren.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKGetData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="59" column="50" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKSetData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZooKeeperConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ZooKeeperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#510#641#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -928,9 +624,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -948,9 +642,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +651,8 @@
         <state relative-caret-position="414">
           <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#510#641#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1006,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="1545" column="29" lean-forward="false" selection-start-line="1545" selection-start-column="24" selection-end-line="1545" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,14 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKExists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1064,20 +748,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZooKeeperConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="126">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#690#915#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKGetChildren.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="55" />
+        <state relative-caret-position="576">
+          <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1087,35 +769,53 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKSetData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKGetData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="936">
           <caret line="59" column="50" lean-forward="false" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-          <folding>
-            <element signature="e#1098#2113#0" expanded="true" />
-            <element signature="e#2112#2113#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKDelete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ZooKeeperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="471">
+          <caret line="38" column="68" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="68" />
+          <folding>
+            <element signature="e#510#641#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar!/org/apache/zookeeper/CreateMode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dingxiang/tools/ZKCreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

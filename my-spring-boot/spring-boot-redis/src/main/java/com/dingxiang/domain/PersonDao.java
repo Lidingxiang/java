@@ -19,6 +19,9 @@ public class PersonDao {
     ValueOperations<String, String> valOpsStr; //3
 
 
+
+
+
     @Autowired
     RedisTemplate<Object, Object> redisTemplate; //2
 

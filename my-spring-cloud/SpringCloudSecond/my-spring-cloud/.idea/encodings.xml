@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/command-pattern" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-ha-03" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-consumer-11" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-service-api-12" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard-08" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-consumer-05" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-consumer-06" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ribbon-consumer-07" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-helloword-02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-helloword-04" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-helloword-13" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine-09" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbine-amqp-10" charset="UTF-8" />
+  </component>
+</project>

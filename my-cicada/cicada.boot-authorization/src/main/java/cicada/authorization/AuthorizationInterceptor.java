@@ -3,9 +3,11 @@ package cicada.authorization;
 
 import cicada.authorization.config.GetUserIdRet;
 import cicada.authorization.config.GetUserIdStatus;
+
 import java.io.IOException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
@@ -36,13 +38,14 @@ public class AuthorizationInterceptor extends HandlerInterceptorAdapter {
         this.UserType = userType;
     }
 
+    @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         if (handler instanceof HandlerMethod) {
-            HandlerMethod method = (HandlerMethod)handler;
+            HandlerMethod method = (HandlerMethod) handler;
             Class<?> controller = method.getBeanType();
-            UserAuthorization userAuthorization = controller == null ? null : (UserAuthorization)controller.getAnnotation(UserAuthorization.class);
+            UserAuthorization userAuthorization = controller == null ? null : controller.getAnnotation(UserAuthorization.class);
             if (userAuthorization == null) {
-                userAuthorization = (UserAuthorization)method.getMethod().getAnnotation(UserAuthorization.class);
+                userAuthorization = method.getMethod().getAnnotation(UserAuthorization.class);
             }
 
             if (userAuthorization != null) {

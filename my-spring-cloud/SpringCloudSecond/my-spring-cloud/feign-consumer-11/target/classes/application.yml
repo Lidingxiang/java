@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: feign-consumer
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+#      defaultZone: http://localhost:1111/eureka/
+
+
+#全局超时时间
+#hystrix.command.default.execution.isolation.thread.timeoutinMilliseconds =5OOO
+
+
+
+
+

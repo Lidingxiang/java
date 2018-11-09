@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/command-pattern/command-pattern.iml" filepath="$PROJECT_DIR$/command-pattern/command-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-01/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server-01/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-01/eureka-server-01.iml" filepath="$PROJECT_DIR$/eureka-server-01/eureka-server-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server-01.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-ha-03/eureka-server-ha.iml" filepath="$PROJECT_DIR$/eureka-server-ha-03/eureka-server-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-ha-03/eureka-server-ha-03.iml" filepath="$PROJECT_DIR$/eureka-server-ha-03/eureka-server-ha-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-consumer-11/feign-consumer.iml" filepath="$PROJECT_DIR$/feign-consumer-11/feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-consumer-11/feign-consumer-11.iml" filepath="$PROJECT_DIR$/feign-consumer-11/feign-consumer-11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-service-api-12/hello-service-api-12.iml" filepath="$PROJECT_DIR$/hello-service-api-12/hello-service-api-12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard-08/hystrix-dashboard-08.iml" filepath="$PROJECT_DIR$/hystrix-dashboard-08/hystrix-dashboard-08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-spring-cloud.iml" filepath="$PROJECT_DIR$/my-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-consumer-05/ribbon-consumer-05.iml" filepath="$PROJECT_DIR$/ribbon-consumer-05/ribbon-consumer-05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-consumer-06/ribbon-consumer-06.iml" filepath="$PROJECT_DIR$/ribbon-consumer-06/ribbon-consumer-06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbon-consumer-07/ribbon-consumer-07.iml" filepath="$PROJECT_DIR$/ribbon-consumer-07/ribbon-consumer-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-helloword-02/spring-boot-helloword-02.iml" filepath="$PROJECT_DIR$/spring-boot-helloword-02/spring-boot-helloword-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-helloword-04/spring-boot-helloword-04.iml" filepath="$PROJECT_DIR$/spring-boot-helloword-04/spring-boot-helloword-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-helloword-13/spring-boot-helloword-13.iml" filepath="$PROJECT_DIR$/spring-boot-helloword-13/spring-boot-helloword-13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine-09/turbine-09.iml" filepath="$PROJECT_DIR$/turbine-09/turbine-09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine-amqp-10/turbine-amqp-10.iml" filepath="$PROJECT_DIR$/turbine-amqp-10/turbine-amqp-10.iml" />
+    </modules>
+  </component>
+</project>
